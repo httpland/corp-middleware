@@ -54,7 +54,7 @@ To change the corp policy, do the following:
 ```ts
 import {
   corp,
-} from "https://deno.land/x/referrer_policy_middleware@$VERSION/middleware.ts";
+} from "https://deno.land/x/corp_middleware@$VERSION/middleware.ts";
 
 const middleware = corp("cross-origin");
 ```
